@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -18,4 +18,275 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.header .logo h1 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  color: #7daec7; /* Hover effect */
+}
+
+/* footer */
+
+/* Footer Styles */
+.footer {
+  background-color: #1a1a1a; /* Dark background */
+  color: #f1f1f1; /* Light text */
+  padding: 40px 0;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo h3 {
+  font-size: 28px;
+  color: #41a6ea; /* Gold color for the company name */
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #12b6f2; /* Hover effect on links */
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.social-icon {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #12b6f2; /* Hover effect on social icons */
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-links ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+.logo img {
+  height: 40px;
+  width: 148px;
+}
+
+.navcontactbutton {
+  cursor: pointer;
+  background-color: #bdbec2 !important;
+  color: #414143 !important;
+  padding: 4px 16px;
+  margin-right: 10px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.navcontactbutton:hover {
+  background-color: #4dcbe1 !important; /* Ensuring background change */
+  color: #fff !important; /* Changing text color to white for better contrast */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Top Bannner  ******************************************************/
+.topbanner {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Full screen height */
+  /* overflow: hidden; */
+  margin-bottom: 100px;
+}
+
+.blurred-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills the screen */
+  filter: blur(7px);
+}
+
+/* text on banner video ********************************************/
+
+.videotext {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+/* Default Style for Each Line */
+.videotextcontent {
+  font-size: 55px;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+  background: linear-gradient(
+    to right,
+    #000000,
+    #007bff
+  ); /* Black to Blue Gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Apply gradient to text */
+}
+
+/* Adding Delay for Each Line */
+.videotextcontent:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.videotextcontent:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.videotextcontent:nth-child(3) {
+  animation-delay: 2.5s;
+}
+
+/* Fade-in Up Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Background Effect */
+body {
+  background-color: white; /* White Background */
+}
+
+.bannercontectpara {
+  height: 250px;
+  width: 900px;
+  background-color: grey;
+  position: relative;
+  margin: 5px 60px;
+  padding: 20px; /* Add padding for better readability */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Top banner inside box content */
+.videotextsub {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: white;
+  white-space: normal; /* Allow text to wrap */
+  overflow-wrap: break-word; /* Break long words only if necessary */
+  text-align: center; /* Center-align text */
 }
