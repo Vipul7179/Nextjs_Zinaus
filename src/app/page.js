@@ -27,11 +27,20 @@ export default function Home() {
   </div>
   </div>
 </div>
+ </div>
+   </div>
+   {/* Top banner section end************** */}
 
+   <section className="aboutOurCompany">
 
-        </div>
+<div className="aboutcompany_title">
+<h1>Empowering Your Digital Success with End-to-End Solutions</h1>
+</div>
 
-       </div>
+<div className="aboutcompany_description">
+  <p>At Zinaus, we deliver a full range of digital solutions to drive business success. From stunning websites to cutting-edge game development, we’ve got you covered. Our services include e-commerce, social casino gaming, roulette, crash games, app development, and enterprise solutions. We blend creative design with robust technology to craft exceptional user experiences, keeping you ahead in a dynamic digital landscape. Partner with us for innovative, long-term growth strategies and a competitive edge in today’s market!</p>
+</div>
+   </section>
       
       </main>
     
