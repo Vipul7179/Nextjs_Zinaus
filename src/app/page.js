@@ -20,8 +20,11 @@ export default function Home() {
   <h1 className="videotextcontent">Succeed – Your IT Partner for the Future</h1>
   <div className="bannercontectpara">
   <p className="videotextsub">
-  Backed by a team of highly skilled developers and a strong dedication to excellence, we empower our clients to thrive in the digital age by delivering innovative solutions, cutting-edge technology, and seamless user experiences. Our expertise spans across web development, mobile applications, and enterprise solutions, ensuring businesses stay ahead in an ever-evolving digital landscape
+  Backed by a team of highly skilled developers and a strong dedication to excellence, we empower our clients to thrive in the digital age by delivering innovative solutions, cutting-edge technology, and seamless user experiences. Our expertise spans across web development, mobile applications, and enterprise solutions, ensuring businesses stay ahead in an ever-evolving digital landscape.
   </p>
+  <div className="subbannertextbutton">
+    <a>Connect with our team</a>
+  </div>
   </div>
 </div>
 
