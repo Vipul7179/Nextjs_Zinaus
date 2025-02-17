@@ -62,6 +62,9 @@ export default function Home() {
         <p>Projects completed</p>
       </div>
 
+
+      
+
     </div>
 
    </section>
