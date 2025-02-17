@@ -41,10 +41,36 @@ export default function Home() {
   <p>At Zinaus, we deliver a full range of digital solutions to drive business success. From stunning websites to cutting-edge game development, we’ve got you covered. Our services include e-commerce, social casino gaming, roulette, crash games, app development, and enterprise solutions. We blend creative design with robust technology to craft exceptional user experiences, keeping you ahead in a dynamic digital landscape. Partner with us for innovative, long-term growth strategies and a competitive edge in today’s market!</p>
 </div>
    </section>
+
+   {/* animated projects counter******************************************** */}
+   <section className="counterdata">
+    <div className="counter grid gird-four-column">
+      <div className="counter-section"> 
+        <h2 className="counter-numbers">2000+</h2>
+        <p>Projects completed</p>
+      </div>
+      <div className="counter-section"> 
+        <h2 className="counter-numbers">6000+</h2>
+        <p>Happy clients</p>
+      </div>
+      <div className="counter-section"> 
+        <h2 className="counter-numbers">5000+</h2>
+        <p>Projects completed</p>
+      </div>
+      <div className="counter-section"> 
+        <h2 className="counter-numbers">4000+</h2>
+        <p>Projects completed</p>
+      </div>
+
+    </div>
+
+   </section>
       
       </main>
+      
     
     </div>
+    
     
   );
 }
