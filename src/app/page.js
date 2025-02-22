@@ -110,7 +110,7 @@ export default function Home() {
     {/* <!-- Service Box 2 --> */}
     <div class="service-box">
       <div>
-      <img src="icon2.svg" alt="Ecommerce Icon" class="service-icon" />
+      <img src="/Images/ui-design.png" alt="Ecommerce Icon" class="service-icon" />
       </div>
       <div>
       <h3 class="service-title">Mobile App Development (iOS & Android)</h3>
@@ -123,7 +123,7 @@ export default function Home() {
     {/* <!-- Service Box 3 --> */}
     <div class="service-box">
       <div>
-      <img src="icon3.svg" alt="Marketing Icon" class="service-icon" />
+      <img src="/Images/cards.png" alt="Marketing Icon" class="service-icon" />
       </div>
       <div>
       <h3 class="service-title">Social Casino Gaming Platform</h3>
@@ -136,7 +136,7 @@ export default function Home() {
     {/* <!-- Service Box 4 --> */}
     <div class="service-box">
       <div>
-      <img src="icon4.svg" alt="SaaS Icon" class="service-icon" />
+      <img src="/Images/movie.png" alt="SaaS Icon" class="service-icon" />
       </div>
       <div>
       <h3 class="service-title">Photography & Video Content for Promotions</h3>
@@ -149,7 +149,7 @@ export default function Home() {
     {/* <!-- Service Box 5 --> */}
     <div class="service-box">
       <div>
-      <img src="icon5.svg" alt="Cloud Icon" class="service-icon" />
+      <img src="/Images/testing.png" alt="Cloud Icon" class="service-icon" />
       </div>
       <div>
       <h3 class="service-title">Quality Assurance & Testing Solutions</h3>
@@ -162,7 +162,7 @@ export default function Home() {
     {/* <!-- Service Box 6 --> */}
     <div class="service-box">
       <div>
-      <img src="icon6.svg" alt="Mobile Icon" class="service-icon" />
+      <img src="/Images/app-development.png" alt="Mobile Icon" class="service-icon" />
       </div>
       <div>
       <h3 class="service-title">Web Development</h3>
