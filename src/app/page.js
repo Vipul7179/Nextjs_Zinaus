@@ -96,56 +96,59 @@ export default function Home() {
   <div class="services-grid">
     {/* <!-- Service Box 1 --> */}
     <div class="service-box">
-      
-      <img src="icon1.svg" alt="Marketplace Icon" class="service-icon" />
-      <h3 class="service-title">Marketplace solutions</h3>
+      <div>
+      <img src="/Images/online-store.png" alt="Marketplace Icon" class="service-icon" />
+      </div>
+      <div>
+      <h3 class="service-title">E-commerce</h3>
       <p class="service-description">
-        We understand the importance of a marketplace presence for a seller...
+      We offer a seamless e-commerce platform with easy product navigation, secure payments, and fast delivery to help businesses thrive online.
       </p>
+      </div>
     </div>
 
     {/* <!-- Service Box 2 --> */}
     <div class="service-box">
       <img src="icon2.svg" alt="Ecommerce Icon" class="service-icon" />
-      <h3 class="service-title">Ecommerce extensions</h3>
+      <h3 class="service-title">Mobile App Development (iOS & Android)</h3>
       <p class="service-description">
-        We work across the provision of various e-commerce extensions...
+      We create high-performance, user-friendly mobile apps for both iOS and Android, ensuring seamless functionality, security, and scalability across all devices.
       </p>
     </div>
 
     {/* <!-- Service Box 3 --> */}
     <div class="service-box">
       <img src="icon3.svg" alt="Marketing Icon" class="service-icon" />
-      <h3 class="service-title">Marketing automation</h3>
+      <h3 class="service-title">Social Casino Gaming Platform</h3>
       <p class="service-description">
-        We enable marketing automation for businesses who wish to ease...
+      We develop engaging social casino games that offer players a fun, interactive experience. Our custom-built solutions provide exciting gameplay, smooth performance, and social features, ensuring your game stands out in the competitive gaming market.
       </p>
     </div>
 
     {/* <!-- Service Box 4 --> */}
     <div class="service-box">
       <img src="icon4.svg" alt="SaaS Icon" class="service-icon" />
-      <h3 class="service-title">SaaS based applications</h3>
+      <h3 class="service-title">Photography & Video Content for Promotions</h3>
       <p class="service-description">
-        We are efficient in providing Software as a Service (SaaS)...
+      We offer professional photography and video content to enhance your promotional campaigns. From product shoots to captivating video ads, we create high-quality visuals that grab attention and boost your brand’s engagement.
       </p>
     </div>
 
     {/* <!-- Service Box 5 --> */}
     <div class="service-box">
       <img src="icon5.svg" alt="Cloud Icon" class="service-icon" />
-      <h3 class="service-title">Cloud hosting service</h3>
+      <h3 class="service-title">Quality Assurance & Testing Solutions</h3>
       <p class="service-description">
-        Our cloud hosting service is here to ease your data storage...
+      We provide comprehensive QA testing, including manual testing, automation, and API performance testing, ensuring your products are bug-free, reliable, and optimized for peak performance across all platforms.
       </p>
     </div>
 
     {/* <!-- Service Box 6 --> */}
     <div class="service-box">
       <img src="icon6.svg" alt="Mobile Icon" class="service-icon" />
-      <h3 class="service-title">Mobile and DevOps</h3>
+      <h3 class="service-title">Web Development</h3>
       <p class="service-description">
-        We take a step further with our DevOps now. We help in the creation...
+      We specialize in developing custom web applications that provide innovative and scalable solutions. Our experienced team creates high-performance applications tailored to your business, enhancing user experiences and driving growth.
       </p>
     </div>
   </div>
