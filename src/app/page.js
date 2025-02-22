@@ -109,47 +109,67 @@ export default function Home() {
 
     {/* <!-- Service Box 2 --> */}
     <div class="service-box">
+      <div>
       <img src="icon2.svg" alt="Ecommerce Icon" class="service-icon" />
+      </div>
+      <div>
       <h3 class="service-title">Mobile App Development (iOS & Android)</h3>
       <p class="service-description">
       We create high-performance, user-friendly mobile apps for both iOS and Android, ensuring seamless functionality, security, and scalability across all devices.
       </p>
+      </div>
     </div>
 
     {/* <!-- Service Box 3 --> */}
     <div class="service-box">
+      <div>
       <img src="icon3.svg" alt="Marketing Icon" class="service-icon" />
+      </div>
+      <div>
       <h3 class="service-title">Social Casino Gaming Platform</h3>
       <p class="service-description">
       We develop engaging social casino games that offer players a fun, interactive experience. Our custom-built solutions provide exciting gameplay, smooth performance, and social features, ensuring your game stands out in the competitive gaming market.
       </p>
+      </div>
     </div>
 
     {/* <!-- Service Box 4 --> */}
     <div class="service-box">
+      <div>
       <img src="icon4.svg" alt="SaaS Icon" class="service-icon" />
+      </div>
+      <div>
       <h3 class="service-title">Photography & Video Content for Promotions</h3>
       <p class="service-description">
       We offer professional photography and video content to enhance your promotional campaigns. From product shoots to captivating video ads, we create high-quality visuals that grab attention and boost your brand’s engagement.
       </p>
+      </div>
     </div>
 
     {/* <!-- Service Box 5 --> */}
     <div class="service-box">
+      <div>
       <img src="icon5.svg" alt="Cloud Icon" class="service-icon" />
+      </div>
+      <div>
       <h3 class="service-title">Quality Assurance & Testing Solutions</h3>
       <p class="service-description">
       We provide comprehensive QA testing, including manual testing, automation, and API performance testing, ensuring your products are bug-free, reliable, and optimized for peak performance across all platforms.
       </p>
+      </div>
     </div>
 
     {/* <!-- Service Box 6 --> */}
     <div class="service-box">
+      <div>
       <img src="icon6.svg" alt="Mobile Icon" class="service-icon" />
+      </div>
+      <div>
       <h3 class="service-title">Web Development</h3>
       <p class="service-description">
       We specialize in developing custom web applications that provide innovative and scalable solutions. Our experienced team creates high-performance applications tailored to your business, enhancing user experiences and driving growth.
       </p>
+      </div>
     </div>
   </div>
 </section>
