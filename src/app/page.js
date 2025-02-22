@@ -176,12 +176,23 @@ export default function Home() {
 {/* our services section end */}
 
 <section className="helpsection">
-  <div>
-    <div>
-      <div class="ot-heading">
+  <div className="ot-container">
+    <div className="ot-container-box">
+      <div className="ot-heading">
 <span>We are all up to hearing from you</span>
-<h2 class="main-heading">How can we help? 
+<h2 className="main-heading">How can we <br/>help? 
 </h2>	  
+  </div>
+  
+  <div className="ot-button-section">
+
+<div>
+  <a href="/"  className="ot-button-element">
+    <span>contact us</span>
+  </a>
+
+</div>
+
   </div>
 
     </div>

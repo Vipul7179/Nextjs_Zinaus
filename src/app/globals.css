@@ -491,6 +491,8 @@ body {
 /* Our services section end's ************************************************* */
 
 .helpsection {
+  display: flex;
+  justify-content: center;
   height: 358px;
   background-image: url(/Images/Contact-US-1-1.png);
   background-position: center center;
@@ -499,14 +501,56 @@ body {
   margin: 20px 0px;
 }
 
+.ot-container-box {
+  display: flex;
+  align-items: center;
+  gap: 280px;
+}
+
 /* ot-heading start **************************** */
 
 .ot-heading span {
   color: #f7f3f3;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 5px;
+}
+
+.ot-heading h2 {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.ot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  color: white;
+  padding: 0px 0px 0px 55px;
+}
+.ot-button-element {
+  font-family: "Nunito Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: rgba(67, 186, 255, 0);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffffff;
+  border-radius: 0px 0px 0px 0px;
+  padding: 21px 35px 21px 35px;
+}
+
+.ot-button-element:hover {
+  background: #1797c6;
+  transform: scale(1.1);
+  color: white;
+  /* border: none; */
 }
 
 /* ot-heading end */
