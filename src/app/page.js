@@ -86,87 +86,87 @@ export default function Home() {
 
       <div className="ourservices-button">
       <div className="ourservices-textbutton">
-      <a class="text-white">All Services</a>
+      <a className="text-white">All Services</a>
   </div>
       </div>
 
     </section>
    </div>
-   <section class="services-section">
-  <div class="services-grid">
+   <section className="services-section">
+  <div className="services-grid">
     {/* <!-- Service Box 1 --> */}
-    <div class="service-box">
+    <div className="service-box">
       <div>
-      <img src="/Images/online-store.png" alt="ecommerce Icon" class="service-icon" style={{paddingRight: "3px"}} />
+      <img src="/Images/online-store.png" alt="ecommerce Icon" className="service-icon" style={{paddingRight: "3px"}} />
       </div>
       <div>
-      <h3 class="service-title">E-commerce</h3>
-      <p class="service-description">
+      <h3 className="service-title">E-commerce</h3>
+      <p className="service-description">
       We offer a seamless e-commerce platform with intuitive navigation, secure payments, fast delivery, and a smooth checkout, along with mobile optimization and order tracking.
       </p>
       </div>
     </div>
 
     {/* <!-- Service Box 2 --> */}
-    <div class="service-box">
+    <div className="service-box">
       <div>
-      <img src="/Images/ui-design.png" alt="UI Icon" class="service-icon" />
+      <img src="/Images/ui-design.png" alt="UI Icon" className="service-icon" />
       </div>
       <div>
-      <h3 class="service-title">Mobile App Development (iOS & Android)</h3>
-      <p class="service-description">
+      <h3 className="service-title">Mobile App Development (iOS & Android)</h3>
+      <p className="service-description">
       We create high-performance, user-friendly mobile apps for both iOS and Android, ensuring seamless functionality, security, and scalability across all devices.
       </p>
       </div>
     </div>
 
     {/* <!-- Service Box 3 --> */}
-    <div class="service-box">
+    <div className="service-box">
       <div>
-      <img src="/Images/cards.png" alt="cards Icon" class="service-icon" style={{paddingRight: "3px"}} />
+      <img src="/Images/cards.png" alt="cards Icon" className="service-icon" style={{paddingRight: "3px"}} />
       </div>
       <div>
-      <h3 class="service-title">Social Casino Gaming Platform</h3>
-      <p class="service-description">
+      <h3 className="service-title">Social Casino Gaming Platform</h3>
+      <p className="service-description">
       We develop engaging social casino games with fun, interactive experiences. Our custom solutions ensure exciting gameplay, smooth performance, and social features to stand out.
       </p>
       </div>
     </div>
 
     {/* <!-- Service Box 4 --> */}
-    <div class="service-box">
+    <div className="service-box">
       <div>
-      <img src="/Images/movie.png" alt="movie Icon" class="service-icon" />
+      <img src="/Images/movie.png" alt="movie Icon" className="service-icon" />
       </div>
       <div>
-      <h3 class="service-title">Photography & Video Content for Promotions</h3>
-      <p class="service-description">
+      <h3 className="service-title">Photography & Video Content for Promotions</h3>
+      <p className="service-description">
       We provide professional photography and video content for promotions, creating high-quality product shoots and captivating ads that enhance engagement and boost your brand.
       </p>
       </div>
     </div>
 
     {/* <!-- Service Box 5 --> */}
-    <div class="service-box">
+    <div className="service-box">
       <div>
-      <img src="/Images/testing.png" alt="qa Icon" class="service-icon" />
+      <img src="/Images/testing.png" alt="qa Icon" className="service-icon" />
       </div>
       <div>
-      <h3 class="service-title">Quality Assurance & Testing Solutions</h3>
-      <p class="service-description">
+      <h3 className="service-title">Quality Assurance & Testing Solutions</h3>
+      <p className="service-description">
       We offer comprehensive QA testing, including manual, automation, and API performance testing, ensuring bug-free, reliable, and high-performance products across all platforms.
       </p>
       </div>
     </div>
 
     {/* <!-- Service Box 6 --> */}
-    <div class="service-box">
+    <div className="service-box">
       <div>
-      <img src="/Images/app-development.png" alt="aoo dev Icon" class="service-icon" style={{paddingRight:"3px"}}/>
+      <img src="/Images/app-development.png" alt="aoo dev Icon" className="service-icon" style={{paddingRight:"3px"}}/>
       </div>
       <div>
-      <h3 class="service-title">Web Development</h3>
-      <p class="service-description">
+      <h3 className="service-title">Web Development</h3>
+      <p className="service-description">
       We develop custom web applications with innovative, scalable solutions. Our expert team builds high-performance apps tailored to your business, enhancing user experience and driving growth.
       </p>
       </div>
@@ -176,6 +176,16 @@ export default function Home() {
 {/* our services section end */}
 
 <section className="helpsection">
+  <div>
+    <div>
+      <div class="ot-heading">
+<span>We are all up to hearing from you</span>
+<h2 class="main-heading">How can we help? 
+</h2>	  
+  </div>
+
+    </div>
+  </div>
 
 </section>
       
