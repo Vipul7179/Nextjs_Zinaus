@@ -838,6 +838,9 @@ body {
   .counterdata {
     margin-top: 47px;
   }
+  .header {
+    padding: 2px 20px;
+  }
 }
 
 @media (max-width: 768px) {
