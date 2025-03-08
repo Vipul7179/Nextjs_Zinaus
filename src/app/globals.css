@@ -653,7 +653,46 @@ body {
 .subbannertextbutton2 {
   display: none;
 }
+.aboutcompany_title span {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1797c6;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
 
+.top-buttonarrow {
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(135deg, #1797c6, #36b6e4);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  bottom: 5rem;
+  right: 5rem;
+  box-shadow: 0px 10px 20px rgba(22, 169, 198, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    background 0.3s ease-in-out;
+}
+.top-buttonarrow:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #36b6e4, #1797c6);
+  /* box-shadow: 0px 15px 25px rgba(193, 187, 187, 0.7); */
+}
+.top-buttonarrow:active {
+  transform: scale(0.9);
+}
+
+.top-btn--icon {
+  height: 40px;
+  color: white;
+}
 /* Experties grid generater end */
 
 /* Media query *************************************8 */
@@ -726,7 +765,7 @@ body {
     display: none;
   }
   .topbanner {
-    height: 50vh;
+    height: 40vh;
   }
 
   .mobilebannerbutton-container {
@@ -843,6 +882,21 @@ body {
   }
   .videotext h1 {
     font-weight: 800;
+  }
+  .aboutcompany_title span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1797c6;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+  .top-buttonarrow {
+    width: 3rem;
+    height: 3rem;
+    bottom: 2rem;
+    right: 2rem;
   }
 }
 

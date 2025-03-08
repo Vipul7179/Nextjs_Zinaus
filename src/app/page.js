@@ -4,6 +4,7 @@ import Homepage from "./page";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { GoToTop } from "./components/GoToTop";
 
 export default function Home() {
   useEffect(() => {
@@ -49,6 +50,7 @@ export default function Home() {
    <section className="aboutOurCompany">
 
 <div className="aboutcompany_title">
+<span>about zinaus</span>
 <h1>Empowering Your Digital Success with End-to-End Solutions</h1>
 </div>
 
@@ -87,7 +89,7 @@ export default function Home() {
    {/* Our services section start */}
 
    <div className="oursevices-section">
-    <section className="ourservicestitle" data-aos="zoom-in-right">
+    <section className="ourservicestitle" data-aos="zoom-in">
       <div className="service-element" >
         <span>our services</span>
         <h1 className="services-main-heading">We Offer a Wide <br/> 
@@ -263,7 +265,7 @@ export default function Home() {
     </section>
       
       </main>
-      
+      <GoToTop />
     
     </div>
     
