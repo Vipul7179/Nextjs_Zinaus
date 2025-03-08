@@ -739,8 +739,8 @@ body {
     color: #ffffff;
     display: block;
     font-weight: 500;
-    height: 40px;
-    width: 155px;
+    height: 50px;
+    width: 170px;
     background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
     display: flex;
     align-items: center;
@@ -781,6 +781,7 @@ body {
   }
   .aboutcompany_title h1 {
     width: 350px;
+    font-weight: 800;
   }
 
   .topbanner {
