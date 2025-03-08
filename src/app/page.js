@@ -1,7 +1,15 @@
+"use client";
 import Image from "next/image";
 import Homepage from "./page";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 }); // Initializes AOS with a duration of 1000ms
+  }, []);
+
   return (
     
     <div>
@@ -28,7 +36,7 @@ export default function Home() {
   </div>
   </div>
   <div className="mobilebannerbutton-container">
-  <div className="subbannertextbutton2">
+  <div className="subbannertextbutton2" >
     <a>Connect with our team</a>
   </div>
   </div>
@@ -54,7 +62,7 @@ export default function Home() {
 
    {/* animated projects counter******************************************** */}
    <section className="counterdata">
-    <div className="counter grid gird-four-column">
+   <div className="counter grid grid-four-column" data-aos="fade-up" >
       <div className="counter-section"> 
         <h2 className="counter-numbers">2000+</h2>
         <p>Projects completed</p>
@@ -71,11 +79,7 @@ export default function Home() {
         <h2 className="counter-numbers">4000+</h2>
         <p>Projects completed</p>
       </div>
-
-
-      
-
-    </div>
+      </div>
 
    </section>
 
@@ -83,8 +87,8 @@ export default function Home() {
    {/* Our services section start */}
 
    <div className="oursevices-section">
-    <section className="ourservicestitle">
-      <div className="service-element">
+    <section className="ourservicestitle" data-aos="zoom-in-right">
+      <div className="service-element" >
         <span>our services</span>
         <h1 className="services-main-heading">We Offer a Wide <br/> 
         Variety of IT Services </h1>
@@ -99,8 +103,8 @@ export default function Home() {
 
     </section>
    </div>
-   <section className="services-section">
-  <div className="services-grid">
+   <section className="services-section" data-aos="zoom-in">
+  <div className="services-grid" >
     {/* <!-- Service Box 1 --> */}
     <div className="service-box">
       <div>
@@ -191,7 +195,7 @@ export default function Home() {
 </h2>	  
   </div>
   
-  <div className="ot-button-section">
+  <div className="ot-button-section" data-aos="zoom-in">
 
 <div>
   <a href="/"  className="ot-button-element">
