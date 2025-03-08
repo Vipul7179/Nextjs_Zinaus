@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { GoToTop } from "./components/GoToTop";
+import CountUp from "react-countup";
 
 export default function Home() {
   useEffect(() => {
@@ -66,19 +67,27 @@ export default function Home() {
    <section className="counterdata">
    <div className="counter grid grid-four-column" data-aos="fade-up" >
       <div className="counter-section"> 
-        <h2 className="counter-numbers">2000+</h2>
+      <h2 className="counter-numbers">
+            <CountUp start={0} end={20} duration={5} separator="," />+
+          </h2>
         <p>Projects completed</p>
       </div>
       <div className="counter-section"> 
-        <h2 className="counter-numbers">6000+</h2>
+      <h2 className="counter-numbers">
+            <CountUp start={0} end={18} duration={5} separator="," />+
+          </h2>
         <p>Happy clients</p>
       </div>
       <div className="counter-section"> 
-        <h2 className="counter-numbers">5000+</h2>
+      <h2 className="counter-numbers">
+            <CountUp start={0} end={20} duration={5} separator="," />+
+          </h2>
         <p>Projects completed</p>
       </div>
       <div className="counter-section"> 
-        <h2 className="counter-numbers">4000+</h2>
+      <h2 className="counter-numbers">
+            <CountUp start={0} end={18} duration={5} separator="," />+
+          </h2>
         <p>Projects completed</p>
       </div>
       </div>
