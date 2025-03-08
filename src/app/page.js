@@ -22,11 +22,18 @@ export default function Home() {
   <p className="videotextsub">
   Backed by a team of highly skilled developers and a strong dedication to excellence, we empower our clients to thrive in the digital age by delivering innovative solutions, cutting-edge technology, and seamless user experiences. Our expertise spans across web development, mobile applications, and enterprise solutions, ensuring businesses stay ahead in an ever-evolving digital landscape.
   </p>
+ 
   <div className="subbannertextbutton">
     <a>Connect with our team</a>
   </div>
   </div>
+  <div className="mobilebannerbutton-container">
+  <div className="subbannertextbutton2">
+    <a>Connect with our team</a>
+  </div>
+  </div>
 </div>
+
  </div>
    </div>
    {/* Top banner section end************** */}

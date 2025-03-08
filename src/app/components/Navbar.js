@@ -8,7 +8,11 @@ const Navbar = () => {
       <a href="#">
     <img src="/Zinaus_new-removebg-preview_enhanced.png" alt="Zinaus Logo" />
   </a>
+  
     </div>
+    <div className='mobile-menubutton'>
+      <img src="/Images/hamburger.png" alt="burger menu" />
+      </div>
     <nav className="navigation">
       <ul>
       <li><a href="#">About Us</a></li>
@@ -19,6 +23,8 @@ const Navbar = () => {
         <a className="navcontactbutton text-white hover:text-white">Contact Us</a>
         </li>
       </ul>
+
+      
     </nav>
   </header>
   )

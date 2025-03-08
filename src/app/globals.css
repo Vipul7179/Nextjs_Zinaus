@@ -45,6 +45,9 @@ body {
   z-index: 10;
   width: 100%;
 }
+.logo {
+  display: flex;
+}
 
 .header .logo h1 {
   margin-left: 20px;
@@ -640,6 +643,17 @@ body {
   text-decoration: underline;
 }
 
+.mobile-menubutton {
+  display: none;
+}
+.mobile-menubutton img {
+  width: 50px;
+}
+
+.subbannertextbutton2 {
+  display: none;
+}
+
 /* Experties grid generater end */
 
 /* Media query *************************************8 */
@@ -694,4 +708,136 @@ body {
   .ourservices-textbutton {
     color: white;
   }
+}
+
+/* header responsive */
+
+@media (max-width: 990px) {
+  .navigation {
+    display: none;
+  }
+  .mobile-menubutton {
+    display: block;
+  }
+  .videotext h1 {
+    font-size: 30px;
+  }
+  .bannercontectpara {
+    display: none;
+  }
+  .topbanner {
+    height: 50vh;
+  }
+
+  .mobilebannerbutton-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .subbannertextbutton2 {
+    color: #ffffff;
+    display: block;
+    font-weight: 500;
+    height: 40px;
+    width: 155px;
+    background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+  }
+
+  .subbannertextbutton2:hover {
+    background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+
+  .subbannertextbutton2 a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .blurred-video {
+    top: 40px;
+  }
+  .aboutOurCompany {
+    padding: 0px 15px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+  }
+  .aboutcompany_title {
+    font-size: 20px;
+    line-height: 34px;
+    max-width: 800px;
+    padding: 0;
+    color: rgb(6, 6, 6);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .aboutcompany_title h1 {
+    width: 350px;
+  }
+
+  .topbanner {
+    margin-bottom: 90px;
+  }
+  .counter-numbers {
+    font-size: 20px;
+  }
+  .counter p {
+    font-size: 12px;
+  }
+  .ourservices-button {
+    margin-left: 0px;
+  }
+
+  .ourservicestitle {
+    margin: 45px 33px;
+    flex-direction: column;
+  }
+  .service-element {
+    text-align: center;
+  }
+  .service-element h1 {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .ot-container-box {
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .ot-container {
+    padding: 0px 15px 0px 15px;
+  }
+  .ot-heading h2 {
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 45px;
+  }
+  .helpsection {
+    height: 271px;
+  }
+  .expertise-section {
+    padding: 40px 40px;
+  }
+  .aboutcompany_description p {
+    font-size: 16px;
+  }
+  .counterdata {
+    margin-top: 47px;
+  }
+}
+
+@media (max-width: 768px) {
 }
