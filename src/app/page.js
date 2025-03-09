@@ -200,7 +200,7 @@ export default function Home() {
     {/* <!-- Service Box 6 --> */}
     <div className="service-box">
       <div>
-      <img src="/Images/app-development.png" alt="aoo dev Icon" className="service-icon" />
+      <img src="/Images/app-development.png" alt="aoo dev Icon" className="service-icon" style={{height:"40px", width:"60px"}}/>
       </div>
       <div>
       <h3 className="service-title">Web Development</h3>
