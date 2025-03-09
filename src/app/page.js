@@ -8,6 +8,12 @@ import { GoToTop } from "./components/GoToTop";
 import CountUp from "react-countup";
 import Sidemenu from "./components/Sidemenu";
 
+// react icon
+import { FaClipboardCheck } from "react-icons/fa";
+import { FaSmile } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
+
+
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1000 }); // Initializes AOS with a duration of 1000ms
@@ -68,28 +74,37 @@ export default function Home() {
    <section className="counterdata">
    <div className="counter grid grid-four-column" data-aos="fade-up" >
       <div className="counter-section"> 
-      <h2 className="counter-numbers">
-            <CountUp start={0} end={20} duration={4} separator="," />+
-          </h2>
+      <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
+  <FaClipboardCheck size={24} style={{ marginRight: "8px" }} />
+  <span>
+    <CountUp start={0} end={20} duration={4} separator="," />+
+  </span>
+</h2>
         <p>Projects completed</p>
       </div>
       <div className="counter-section"> 
-      <h2 className="counter-numbers">
-            <CountUp start={0} end={18} duration={4} separator="," />+
-          </h2>
+      <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
+  <FaSmile size={24} style={{ marginRight: "8px" }} />
+  <span>
+    <CountUp start={0} end={18} duration={4} separator="," />+
+  </span>
+</h2>
         <p>Happy clients</p>
       </div>
-      <div className="counter-section"> 
+      {/* <div className="counter-section"> 
       <h2 className="counter-numbers">
             <CountUp start={0} end={20} duration={4} separator="," />+
           </h2>
         <p>Projects completed</p>
-      </div>
+      </div> */}
       <div className="counter-section"> 
-      <h2 className="counter-numbers">
-            <CountUp start={0} end={18} duration={4} separator="," />+
-          </h2>
-        <p>Projects completed</p>
+      <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
+  <FaCalendarAlt size={24} style={{ marginRight: "8px" }} />
+  <span>
+    <CountUp start={0} end={2} duration={4} separator="," />+
+  </span>
+</h2>
+        <p>Years of Experience</p>
       </div>
       </div>
 

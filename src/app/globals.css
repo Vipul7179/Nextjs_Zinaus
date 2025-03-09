@@ -96,7 +96,9 @@ body {
 
 .footer-logo h3 {
   font-size: 28px;
-  color: #21acdf;
+  background: linear-gradient(to right, #017a9b, #00e6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -310,7 +312,7 @@ body {
 }
 
 .subbannertextbutton:hover {
-  background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+  background: linear-gradient(to right, #017a9b, #00e6ff);
   transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
@@ -351,7 +353,7 @@ body {
 /* data counter section start ********************************* */
 
 .counter {
-  background-color: #21acdf;
+  background: linear-gradient(to right, #0996bd, #00e6ff);
   text-align: center;
   justify-content: space-evenly;
   display: flex;
@@ -368,6 +370,8 @@ body {
   font-size: 35px;
   color: rgb(0, 0, 0);
   font-weight: 600;
+  gap: 20px;
+  justify-content: center;
 }
 
 .counter-section {
@@ -384,7 +388,9 @@ body {
 .service-element span {
   font-size: 20px;
   font-weight: 800;
-  color: #1797c6;
+  background: linear-gradient(to right, #017a9b, #00e6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
   display: inline-block;
   margin-bottom: 2px;
@@ -421,7 +427,7 @@ body {
   font-weight: 500;
   height: 60px;
   width: 180px;
-  background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+  background: linear-gradient(to right, #017a9b, #00e6ff);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -432,7 +438,7 @@ body {
 }
 
 .ourservices-textbutton:hover {
-  background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+  background: linear-gradient(to right, #017a9b, #00e6ff);
   /* transform: scale(1.1); */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
@@ -580,7 +586,9 @@ body {
 }
 
 .Expertise-text {
-  color: #1797c6;
+  background: linear-gradient(to right, #017a9b, #00e6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
 
@@ -656,7 +664,9 @@ body {
 .aboutcompany_title span {
   font-size: 16px;
   font-weight: 800;
-  color: #1797c6;
+  background: linear-gradient(to right, #017a9b, #00e6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
   display: inline-block;
   margin-bottom: 2px;
@@ -840,7 +850,7 @@ body {
     font-weight: 500;
     height: 50px;
     width: 170px;
-    background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+    background: linear-gradient(to right, #017a9b, #00e6ff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -850,7 +860,7 @@ body {
   }
 
   .subbannertextbutton2:hover {
-    background: linear-gradient(135deg, #007bff, rgb(80, 192, 215));
+    background: linear-gradient(to right, #017a9b, #00e6ff);
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     color: white;
@@ -888,9 +898,12 @@ body {
   }
   .counter-numbers {
     font-size: 24px;
+    gap: 0px;
+    justify-content: center;
   }
   .counter p {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 800;
   }
   .ourservices-button {
     margin-left: 0px;
