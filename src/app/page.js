@@ -135,7 +135,7 @@ export default function Home() {
     {/* <!-- Service Box 1 --> */}
     <div className="service-box">
       <div>
-      <img src="/Images/online-store.png" alt="ecommerce Icon" className="service-icon" style={{paddingRight: "3px"}} />
+      <img src="/Images/online-store.png" alt="ecommerce Icon" className="service-icon" />
       </div>
       <div>
       <h3 className="service-title">E-commerce</h3>
@@ -161,7 +161,7 @@ export default function Home() {
     {/* <!-- Service Box 3 --> */}
     <div className="service-box">
       <div>
-      <img src="/Images/cards.png" alt="cards Icon" className="service-icon" style={{paddingRight: "3px"}} />
+      <img src="/Images/cards.png" alt="cards Icon" className="service-icon" />
       </div>
       <div>
       <h3 className="service-title">Social Casino Gaming Platform</h3>
@@ -275,17 +275,31 @@ export default function Home() {
           <a href="#" className="category">View →</a>
         </div>
 
-        <div className="expertise-item">
-          <img src="/Images/professional-photographer-vmg-studios.webp" alt="video-graphy" />
-          <h3>We create high-quality photography and videography for brand promotion and skit videos.</h3>
-          <a href="#" className="category">View →</a>
-        </div>
+        
 
         <div className="expertise-item">
           <img src="/Images/kitchen-web.jpg" alt="Kitchen" />
           <h3>We build visually appealing and user-friendly food websites for restaurants, delivery services, and culinary brands.</h3>
           <a href="#" className="category">View →</a>
         </div>
+
+        <div className="expertise-item">
+          <img src="/Images/management_system.jpg" alt="management-system" />
+          <h3>We build smart, efficient management systems to streamline operations and productivity for schools, colleges, offices, businesses, gyms, and hospitals.</h3>
+          <a href="#" className="category">View →</a>
+        </div>
+
+        <div className="expertise-item">
+          <img src="/Images/professional-photographer-vmg-studios.webp" alt="video-graphy" />
+          <h3>We create high-quality photography and videography for brand promotion and skit videos.</h3>
+          <a href="#" className="category">View →</a>
+        </div>
+      </div>
+      
+      <div className="Expertise-button">
+      <div className="Expertise-textbutton">
+      <a className="text-white">View More ➔</a>
+  </div>
       </div>
     </section>
       
