@@ -6,6 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { GoToTop } from "./components/GoToTop";
 import CountUp from "react-countup";
+import Sidemenu from "./components/Sidemenu";
 
 export default function Home() {
   useEffect(() => {
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     
     <div>
-      
+      <Sidemenu/>
       <main >
        <div>
         <div className="topbanner">
@@ -68,25 +69,25 @@ export default function Home() {
    <div className="counter grid grid-four-column" data-aos="fade-up" >
       <div className="counter-section"> 
       <h2 className="counter-numbers">
-            <CountUp start={0} end={20} duration={5} separator="," />+
+            <CountUp start={0} end={20} duration={4} separator="," />+
           </h2>
         <p>Projects completed</p>
       </div>
       <div className="counter-section"> 
       <h2 className="counter-numbers">
-            <CountUp start={0} end={18} duration={5} separator="," />+
+            <CountUp start={0} end={18} duration={4} separator="," />+
           </h2>
         <p>Happy clients</p>
       </div>
       <div className="counter-section"> 
       <h2 className="counter-numbers">
-            <CountUp start={0} end={20} duration={5} separator="," />+
+            <CountUp start={0} end={20} duration={4} separator="," />+
           </h2>
         <p>Projects completed</p>
       </div>
       <div className="counter-section"> 
       <h2 className="counter-numbers">
-            <CountUp start={0} end={18} duration={5} separator="," />+
+            <CountUp start={0} end={18} duration={4} separator="," />+
           </h2>
         <p>Projects completed</p>
       </div>

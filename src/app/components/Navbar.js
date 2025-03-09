@@ -10,9 +10,9 @@ const Navbar = () => {
   </a>
   
     </div>
-    <div className='mobile-menubutton'>
+    {/* <div  className='mobile-menubutton' >
       <img src="/Images/hamburger.png" alt="burger menu" />
-      </div>
+      </div> */}
     <nav className="navigation">
       <ul>
       <li><a href="#">About Us</a></li>
