@@ -85,7 +85,7 @@ export default function Home() {
       <div className="counter-section"> 
       <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
   <FaSmile size={24} style={{ marginRight: "8px" }} />
-  <span>
+  <span>  
     <CountUp start={0} end={18} duration={4} separator="," />+
   </span>
 </h2>
@@ -200,7 +200,7 @@ export default function Home() {
     {/* <!-- Service Box 6 --> */}
     <div className="service-box">
       <div>
-      <img src="/Images/app-development.png" alt="aoo dev Icon" className="service-icon" style={{paddingRight:"3px"}}/>
+      <img src="/Images/app-development.png" alt="aoo dev Icon" className="service-icon" />
       </div>
       <div>
       <h3 className="service-title">Web Development</h3>
