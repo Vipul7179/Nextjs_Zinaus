@@ -1,4 +1,7 @@
 import styles from './contact.module.css';
+import { PiPhoneCallDuotone } from "react-icons/pi";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
 
 export default function Contact() {
     return (
@@ -9,12 +12,31 @@ export default function Contact() {
       </section>
       <div className={styles.contactWrapper}>
         <div className={styles.contactLeft}>
-          <h2>Address</h2>
+          
+        <h1 className="text-black font-semibold pb-2.5">Contact Us</h1>
+
+
+
+          <div className={styles.addresscontainer}>
+          <FaLocationDot size={20} style={{ marginRight: "8px" }} />
+          <h2>Our Address:</h2>
+          
+          </div>
           <p>Mada Center 8th floor, 379 Hudson St,<br />New York, NY 10018 US</p>
-          <h2>Let's Talk</h2>
+          <div className={styles.phonecontainer}>
+          <PiPhoneCallDuotone size={20} style={{ marginRight: "8px" }} />
+          <h2>Our Phone:</h2>
+         
+          </div>
           <p className={styles.phone}>+1 800 1236879</p>
-          <h2>General Support</h2>
-          <p className={styles.email}>contact@example.com</p>
+          <div className={styles.mailcontainer}>
+          <IoMdMail size={20} style={{ marginRight: "8px" }} />
+          <h2>Our Mailbox:</h2>
+          
+          </div>
+          <p className={styles.email}>
+  <a href="mailto:contact@example.com">contact@example.com</a>
+</p>
         </div>
         <div className={styles.contactRight}>
           <h2>Ready to Get Started?</h2>

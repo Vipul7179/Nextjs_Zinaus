@@ -30,11 +30,16 @@
 }
 
 .contactLeft {
-  background-color: #292828;
+  background: linear-gradient(to right, #017a9b, #00e6ff);
   color: #f1f1f1;
   padding: 40px;
   text-align: left;
   order: 2;
+}
+
+.contactLeft h1 {
+  text-transform: uppercase;
+  font-size: 36px;
 }
 
 .contactRight {
@@ -71,13 +76,13 @@
   background-color: #218838;
 }
 
-.phone {
+/* .phone {
   color: #28a745;
 }
 
 .email {
   color: #007bff;
-}
+} */
 
 /* Start header banner */
 .contactheader {
@@ -112,6 +117,22 @@
   margin: 10px auto 0;
 }
 
+.addresscontainer,
+.phonecontainer,
+.mailcontainer {
+  display: flex;
+  gap: 3px;
+  color: #000000;
+  font-weight: 500;
+  align-items: center;
+  font-size: 17px;
+}
+
+.contactLeft p {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
 /* Responsive Design */
 @media (min-width: 768px) {
   .contactContainer {
@@ -141,5 +162,11 @@
   }
   .contactWrapper {
     margin-top: 39vh;
+  }
+}
+
+@media (max-width: 990px) {
+  .contactLeft h1 {
+    font-size: 23px;
   }
 }
