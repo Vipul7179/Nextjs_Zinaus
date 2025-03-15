@@ -28,7 +28,10 @@ export default function Contact() {
           <h2>Our Phone:</h2>
          
           </div>
-          <p className={styles.phone}>+1 800 1236879</p>
+          <p className={styles.phone}>
+  <a href="tel:+18001236879">+1 800 1236879</a>
+</p>
+
           <div className={styles.mailcontainer}>
           <IoMdMail size={20} style={{ marginRight: "8px" }} />
           <h2>Our Mailbox:</h2>
@@ -40,14 +43,15 @@ export default function Contact() {
         </div>
         <div className={styles.contactRight}>
           <h2>Ready to Get Started?</h2>
-          <form>
-            <input type="text" placeholder="First name" className={styles.input} />
-            <input type="text" placeholder="Last name" className={styles.input} />
-            <input type="email" placeholder="Eg. example@email.com" className={styles.input} />
-            <input type="tel" placeholder="Eg. +1 800 0000000" className={styles.input} />
-            <textarea placeholder="Write a message" className={styles.textarea}></textarea>
-            <button type="submit" className={styles.button}>SEND MESSAGE</button>
-          </form>
+          <form action="https://formspree.io/f/manenqzv" method="POST">
+  <input type="text" name="firstName" placeholder="First name" className={styles.input} />
+  <input type="text" name="lastName" placeholder="Last name" className={styles.input} />
+  <input type="email" name="email" placeholder="Eg. example@email.com" className={styles.input} />
+  <input type="tel" name="phone" placeholder="Eg. +1 800 0000000" className={styles.input} />
+  <textarea name="message" placeholder="Write a message" className={styles.textarea}></textarea>
+  <button type="submit" className={styles.button}>SEND MESSAGE</button>
+</form>
+
         </div>
       </div>
     </div>
