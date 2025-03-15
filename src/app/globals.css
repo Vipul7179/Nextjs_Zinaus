@@ -42,9 +42,12 @@ body {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 10;
+  top: 0; /* Ensure it sticks to the top */
+  left: 0; /* Align to the left */
+  z-index: 999; /* Higher z-index to stay on top */
   width: 100%;
 }
+
 .logo {
   display: flex;
 }
@@ -83,6 +86,10 @@ body {
   padding: 40px 0;
   text-align: center;
   font-family: "Arial", sans-serif;
+  /* width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0; */
 }
 
 .footer-content {
@@ -739,6 +746,7 @@ body {
   cursor: pointer;
   display: flex;
   margin-bottom: 20px;
+  margin-top: 6px;
   align-items: center;
   gap: 30px;
 }
@@ -983,7 +991,7 @@ body {
     margin-top: 47px;
   }
   .header {
-    padding: 6px 20px;
+    /* padding: 6px 20px; */
   }
   .videotext h1 {
     font-weight: 800;
@@ -1005,7 +1013,7 @@ body {
   }
   .mobile-menubutton {
     position: fixed;
-    padding-top: 8px !important;
+    padding-top: 17px !important;
     right: 1rem;
     /* background-color: #333; */
     background: linear-gradient(to right, #017a9b, #00e6ff);
@@ -1017,7 +1025,7 @@ body {
     cursor: pointer;
     font-size: 25px;
     /* border-radius: 5px; */
-    z-index: 999;
+    z-index: 1000;
   }
   .service-box {
     flex-direction: row;

@@ -1,0 +1,145 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 60px;
+  gap: 20px; /* Added gap for spacing */
+}
+
+.contactWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 34vh;
+}
+
+.contactLeft,
+.contactRight {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.contactLeft {
+  background-color: #292828;
+  color: #f1f1f1;
+  padding: 40px;
+  text-align: left;
+  order: 2;
+}
+
+.contactRight {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  order: 1;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+.phone {
+  color: #28a745;
+}
+
+.email {
+  color: #007bff;
+}
+
+/* Start header banner */
+.contactheader {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-image: url("/Images/contactbanner.jpg");
+  color: white;
+  z-index: 1;
+  margin-top: 10px;
+  height: 264px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.contactheader h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contactheader h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #00bcd4;
+  margin: 10px auto 0;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactWrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contactLeft,
+  .contactRight {
+    flex: 1;
+  }
+
+  .contactLeft {
+    order: 1;
+  }
+
+  .contactRight {
+    order: 2;
+  }
+  .contactheader {
+    height: 234px;
+  }
+  .contactWrapper {
+    margin-top: 39vh;
+  }
+}

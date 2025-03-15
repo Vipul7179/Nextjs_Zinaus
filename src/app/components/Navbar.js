@@ -5,7 +5,7 @@ const Navbar = () => {
     <header className="header">
     <div className="logo">
       {/* <h1>Zinaus</h1> */}
-      <a href="#">
+      <a href="/">
     <img src="/Zinaus_new-removebg-preview_enhanced.png" alt="Zinaus Logo" />
   </a>
   
@@ -20,7 +20,7 @@ const Navbar = () => {
         <li><a href="#">Career</a></li>
         <li><a href="#">Expertise</a></li>
         <li className='navbutoon'>
-        <a className="navcontactbutton text-white hover:text-white">Contact Us</a>
+        <a href='/contact' className="navcontactbutton text-white hover:text-white">Contact Us</a>
         </li>
       </ul>
 

@@ -41,12 +41,12 @@ export default function Home() {
   </p>
  
   <div className="subbannertextbutton">
-    <a>Connect with our team</a>
+    <a href="/contact">Connect with our team</a>
   </div>
   </div>
   <div className="mobilebannerbutton-container">
   <div className="subbannertextbutton2" >
-    <a>Connect with our team</a>
+    <a href="/contact"> Connect with our team</a>
   </div>
   </div>
 </div>
@@ -225,7 +225,7 @@ export default function Home() {
   <div className="ot-button-section" data-aos="zoom-in">
 
 <div>
-  <a href="/"  className="ot-button-element">
+  <a href="/contact"  className="ot-button-element">
     <span>contact us</span>
   </a>
 
