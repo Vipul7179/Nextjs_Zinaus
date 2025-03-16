@@ -749,8 +749,8 @@ body {
 .sidebar .close-button {
   background: none;
   border: none;
-  /* background: linear-gradient(to right, #017a9b, #00e6ff);  */
-  background: linear-gradient(to right, #ff6600, #ff8c00);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #e7652f, #e7652f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* font-weight: bold; */
@@ -758,7 +758,7 @@ body {
   cursor: pointer;
   display: flex;
   margin-bottom: 20px;
-  margin-top: 6px;
+  margin-top: 8px;
   align-items: center;
   gap: 30px;
 }

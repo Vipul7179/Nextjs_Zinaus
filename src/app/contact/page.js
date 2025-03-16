@@ -8,10 +8,19 @@ export default function Contact() {
       
       <div className={styles.contactContainer}>
       <section className={styles.contactheader}>
-  <video autoPlay muted loop className={styles.backgroundVideo}>
-    <source src="/SculpNova_thumbnail.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+      <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  poster="/Images/contactbannerthumbnailwithout.png"  /* Fallback image while loading */
+  className={styles.backgroundVideo}
+>
+  <source src="https://firebasestorage.googleapis.com/v0/b/kahaniya-52133.appspot.com/o/Sculpnova%2FSculpNova_thumbnail.mp4?alt=media&token=168ea5cc-6247-4df0-b004-aebf02cb57f6" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
   {/* <h1>Contact Us</h1> */}
 </section>
       <div className={styles.contactWrapper}>
