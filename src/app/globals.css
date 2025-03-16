@@ -74,7 +74,7 @@ body {
 }
 
 .navigation a:hover {
-  color: #7daec7; /* Hover effect */
+  color: #ff6600; /* Hover effect */
 }
 
 /* footer */
@@ -103,7 +103,8 @@ body {
 
 .footer-logo h3 {
   font-size: 28px;
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
@@ -131,7 +132,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #12b6f2; /* Hover effect on links */
+  color: #ff6600; /* Hover effect on links */
 }
 
 .footer-social {
@@ -148,7 +149,7 @@ body {
 }
 
 .social-icon:hover {
-  color: #12b6f2; /* Hover effect on social icons */
+  color: #ff6600; /* Hover effect on social icons */
 }
 
 .footer-bottom {
@@ -198,7 +199,7 @@ body {
 }
 
 .navcontactbutton:hover {
-  background-color: #4dcbe1 !important;
+  background-color: #ff6600 !important;
   color: #fff !important;
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -243,7 +244,8 @@ body {
   background: linear-gradient(
     to right,
     #000000,
-    #21acdf
+    #4a4949,
+    #5b5b5b
   ); /* Black to Blue Gradient */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; /* Apply gradient to text */
@@ -319,7 +321,8 @@ body {
 }
 
 .subbannertextbutton:hover {
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
@@ -360,7 +363,8 @@ body {
 /* data counter section start ********************************* */
 
 .counter {
-  background: linear-gradient(to right, #0996bd, #00e6ff);
+  /* background: linear-gradient(to right, #0996bd, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   text-align: center;
   justify-content: space-evenly;
   display: flex;
@@ -395,7 +399,8 @@ body {
 .service-element span {
   font-size: 20px;
   font-weight: 800;
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -434,7 +439,8 @@ body {
   font-weight: 500;
   height: 60px;
   width: 180px;
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -445,7 +451,8 @@ body {
 }
 
 .ourservices-textbutton:hover {
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   /* transform: scale(1.1); */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
@@ -564,7 +571,7 @@ body {
 }
 
 .ot-button-element:hover {
-  background: #1797c6;
+  background: #ff6600;
   transform: scale(1.1);
   color: white;
   /* border: none; */
@@ -593,7 +600,8 @@ body {
 }
 
 .Expertise-text {
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -671,7 +679,8 @@ body {
 .aboutcompany_title span {
   font-size: 16px;
   font-weight: 800;
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -683,7 +692,8 @@ body {
 .top-buttonarrow {
   width: 4rem;
   height: 4rem;
-  background: linear-gradient(135deg, #1797c6, #36b6e4);
+  /* background: linear-gradient(135deg, #1797c6, #36b6e4); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   border-radius: 50%;
   position: fixed;
   z-index: 999;
@@ -693,13 +703,14 @@ body {
   cursor: pointer;
   bottom: 5rem;
   right: 5rem;
-  box-shadow: 0px 10px 20px rgba(22, 169, 198, 0.5);
+  box-shadow: 0px 10px 20px rgba(248, 162, 3, 0.5);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
     background 0.3s ease-in-out;
 }
 .top-buttonarrow:hover {
   transform: scale(1.1);
-  background: linear-gradient(135deg, #36b6e4, #1797c6);
+  /* background: linear-gradient(135deg, #36b6e4, #1797c6); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   /* box-shadow: 0px 15px 25px rgba(193, 187, 187, 0.7); */
 }
 .top-buttonarrow:active {
@@ -738,7 +749,8 @@ body {
 .sidebar .close-button {
   background: none;
   border: none;
-  background: linear-gradient(to right, #017a9b, #00e6ff); /* Adjust colors */
+  /* background: linear-gradient(to right, #017a9b, #00e6ff);  */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* font-weight: bold; */
@@ -786,7 +798,8 @@ body {
   font-weight: 500;
   height: 45px;
   width: 150px;
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -797,7 +810,8 @@ body {
 }
 
 .Expertise-textbutton:hover {
-  background: linear-gradient(to right, #017a9b, #00e6ff);
+  /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+  background: linear-gradient(to right, #ff6600, #ff8c00);
   /* transform: scale(1.1); */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: white;
@@ -890,7 +904,8 @@ body {
     font-weight: 500;
     height: 50px;
     width: 170px;
-    background: linear-gradient(to right, #017a9b, #00e6ff);
+    /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+    background: linear-gradient(to right, #ff6600, #ff8c00);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -900,7 +915,8 @@ body {
   }
 
   .subbannertextbutton2:hover {
-    background: linear-gradient(to right, #017a9b, #00e6ff);
+    /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+    background: linear-gradient(to right, #ff6600, #ff8c00);
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     color: white;
@@ -1016,7 +1032,8 @@ body {
     padding-top: 17px !important;
     right: 1rem;
     /* background-color: #333; */
-    background: linear-gradient(to right, #017a9b, #00e6ff);
+    /* background: linear-gradient(to right, #017a9b, #00e6ff); */
+    background: linear-gradient(to right, #ff6600, #ff8c00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;

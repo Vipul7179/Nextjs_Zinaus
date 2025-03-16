@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <h3>Zinaus</h3>
+          <h3>Sculpnova</h3>
           <p>Innovative IT Solutions</p>
         </div>
 

@@ -8,8 +8,12 @@ export default function Contact() {
       
       <div className={styles.contactContainer}>
       <section className={styles.contactheader}>
-        <h1>Contact Us</h1>
-      </section>
+  <video autoPlay muted loop className={styles.backgroundVideo}>
+    <source src="/SculpNova_thumbnail.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  {/* <h1>Contact Us</h1> */}
+</section>
       <div className={styles.contactWrapper}>
         <div className={styles.contactLeft}>
           

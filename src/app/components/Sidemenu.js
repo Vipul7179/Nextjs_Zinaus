@@ -15,7 +15,7 @@ function Sidemenu() {
       {/* Sidebar */}
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
       <button onClick={toggleMenu} className="close-button">
-  <img src="/Zinaus_new-removebg-preview_enhanced.png" alt="Close" className="button-icon" />
+  <img src="/Images/sculpnovalogowithbackground.jpg" alt="Close" className="button-icon" />
   ✖
 </button>
         <ul>

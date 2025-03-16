@@ -1,12 +1,13 @@
 import React from 'react'
 
+
 const Navbar = () => {
   return (
     <header className="header">
     <div className="logo">
       {/* <h1>Zinaus</h1> */}
       <a href="/">
-    <img src="/Zinaus_new-removebg-preview_enhanced.png" alt="Zinaus Logo" />
+    <img src="/Images/sculpnovalogowithbackground.jpg" alt="Zinaus Logo" />
   </a>
   
     </div>
