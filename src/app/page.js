@@ -124,7 +124,7 @@ export default function Home() {
 
       <div className="ourservices-button">
       <div className="ourservices-textbutton">
-      <a className="text-white">All Services</a>
+      <a href="/services" className="text-white">All Services</a>
   </div>
       </div>
 
@@ -298,7 +298,7 @@ export default function Home() {
       
       <div className="Expertise-button">
       <div className="Expertise-textbutton">
-      <a className="text-white">View More ➔</a>
+      <a href="/expertise" className="text-white">View More ➔</a>
   </div>
       </div>
     </section>

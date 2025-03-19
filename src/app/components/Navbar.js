@@ -16,10 +16,10 @@ const Navbar = () => {
       </div> */}
     <nav className="navigation">
       <ul>
-      <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Career</a></li>
-        <li><a href="#">Expertise</a></li>
+      <li><a href="/about-us">About Us</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/career">Career</a></li>
+        <li><a href="/expertise">Expertise</a></li>
         <li className='navbutoon'>
         <a href='/contact' className="navcontactbutton text-white hover:text-white">Contact Us</a>
         </li>

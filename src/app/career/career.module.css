@@ -1,0 +1,6 @@
+.container {
+  padding: 100px 20px; /* Adjust padding to match header height */
+  margin-top: 60px; /* Space for fixed header */
+  margin-bottom: 40px; /* Space for fixed footer */
+  text-align: center;
+}

@@ -17,7 +17,7 @@ export default function Contact() {
   poster="/Images/contactbannerthumbnailwithout.png"  /* Fallback image while loading */
   className={styles.backgroundVideo}
 >
-  <source src="https://firebasestorage.googleapis.com/v0/b/kahaniya-52133.appspot.com/o/Sculpnova%2FSculpNova_thumbnail.mp4?alt=media&token=168ea5cc-6247-4df0-b004-aebf02cb57f6" type="video/mp4" />
+  <source src="https://firebasestorage.googleapis.com/v0/b/kahaniya-52133.appspot.com/o/Sculpnova%2FSculpNova_thumbnail_compress.mp4?alt=media&token=b74e987f-23fe-4c06-90ff-4a75bac72211" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
