@@ -2,10 +2,12 @@ import styles from './expertise.module.css';
 
 const Expertise = () => {
     return (
-      <div className={styles.container}>
-        <h1>Expertise</h1>
-        <p>We're working hard to bring something awesome here. Stay tuned!</p>
+      <section className={styles.aboutSection}>
+      <div className={styles.overlay}>
+        <h1 className={styles.title}>Expertise</h1>
+        <div className={styles.underline}></div>
       </div>
+    </section>
     );
   };
   
