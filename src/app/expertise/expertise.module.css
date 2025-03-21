@@ -11,7 +11,7 @@
 }
 
 .overlay {
-  background-color: rgba(231, 100, 49, 0.6); /* Your color with transparency */
+  background-color: rgba(231, 100, 49, 0.8); /* Your color with transparency */
   width: 100%;
   height: 100%;
   position: absolute;
