@@ -42,6 +42,10 @@
   /* background-color: #f9f9f9; */
 }
 
+.servicesSection p {
+  color: #000000;
+}
+
 .servicesTitle {
   font-size: 3rem;
   color: #000000;
