@@ -21,7 +21,7 @@ const AboutUs = () => {
 
      <section className="flex flex-col md:flex-row items-center justify-between p-8 gap-8">
       <div className="md:w-1/2 space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold text-black" >
           Driving <span className="bg-orange-400 px-2">Enterprise Growth</span> And Profitability with Sculpnova
         </h1>
         <p className="text-lg text-gray-700">
@@ -42,7 +42,7 @@ const AboutUs = () => {
 
     <section className="bg-gray-100 py-12 px-6 md:px-20 flex flex-col md:flex-row items-center gap-8" data-aos="zoom-in">
       <div className="md:w-1/2 space-y-4" >
-        <h2 className="text-3xl md:text-4xl font-bold">
+        <h2 className="text-3xl md:text-4xl font-bold text-black">
           What We <span className="px-2" style={{ backgroundColor: '#ec6933', color: '#fff' }}>Believe</span>
         </h2>
         <p className="text-gray-700 leading-relaxed">

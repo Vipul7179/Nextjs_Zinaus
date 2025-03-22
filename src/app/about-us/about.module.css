@@ -106,7 +106,7 @@
 .navigation span {
   padding: 5px 10px;
   border-radius: 4px;
-  transition: background 0.3s;
+  /* transition: background 0.3s; */
 }
 
 .navigation span:hover {
@@ -145,5 +145,8 @@
   }
   .targetingSection {
     background-position: center 7%;
+  }
+  .navigation {
+    flex-wrap: wrap;
   }
 }
