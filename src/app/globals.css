@@ -766,6 +766,10 @@ body {
   width: 160px;
 }
 
+.nav-itemm a:hover {
+  color: #e7652f;
+}
+
 .sidebar ul {
   list-style: none;
   padding: 0;
