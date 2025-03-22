@@ -133,6 +133,27 @@ const AboutUs = () => {
       </div>
     </section>
 
+    {/* contact******************************** */}
+    <section className={styles.contactSection}>
+  <div className={styles.contactWrapper}>
+    <img src="/Images/get_in_touch.png" alt="Contact Us" className={styles.contactImage} />
+    <div className={styles.contactContent}>
+      <h2>Contact us now and</h2>
+      <h3>let's get started!</h3>
+      {/* button */}
+      <div className={styles.serviceButton}>
+  <div className={styles.serviceText}>
+    <a href="/contact" className={styles.textWhite}>Get In Touch</a>
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
     </div>
     
     );
