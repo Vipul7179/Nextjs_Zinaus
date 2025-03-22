@@ -88,7 +88,7 @@ const AboutUs = () => {
       <div className={styles.contentWrapper}>
         <h1 className={styles.titlee}>Empowering Digital <span className={styles.highlight}>Transformation</span></h1>
         <div className={styles.targetingInfo}>
-          {/* <div className={styles.icon}>🎯</div> */}
+
           <h2 className={styles.subtitle}>TARGETING</h2>
           <ul className={styles.featuresList}>
             <li>- Custom Software Solutions</li>
@@ -106,6 +106,32 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
+    {/* ************************************** */}
+
+    <section className={styles.industriesSection}>
+      <div className={styles.sectionWrapper}>
+        <h1 className={styles.heading}>Empowering Digital <span className={styles.highlightedText}>Transformation</span></h1>
+        <div className={styles.industries}>
+          <h2>Industries We Serve</h2>
+          <div className={styles.industriesGrid}>
+            <div className={styles.industryItem} data-aos="zoom-in"><span className={styles.icon}>🏥</span><span>Healthcare</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🎰</span><span>Casino</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>⚙️</span><span>Manufacturing</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🚛</span><span>Transportation</span></div> 
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>📈</span><span>Fintech</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🏦</span><span>Banking</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🛒</span><span>ECommerce</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🚘</span><span>Automotive</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🎓</span><span>Education</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🏬</span><span>Retail</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🔗</span><span>Supply Chain</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🏢</span><span>Real Estate</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🎥</span><span>Media & Entertainment</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>📝</span><span>Consulting</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     </div>
     
