@@ -19,12 +19,12 @@ function Sidemenu() {
   ✖
 </button>
         <ul>
-          <li class="nav-itemm"><a href="/">Home</a></li>
-          <li class="nav-itemm"><a href="/about-us">About Us</a></li>
-          <li class="nav-itemm"><a href="/services">Services</a></li>
-          <li class="nav-itemm"><a href="expertise">Expertise</a></li>
-          <li class="nav-itemm"><a href="/career">Career</a></li>
-          <li class="nav-itemm"><a href="/contact">Contact Us</a></li>
+          <li className="nav-itemm"><a href="/">Home</a></li>
+          <li className="nav-itemm"><a href="/about-us">About Us</a></li>
+          <li className="nav-itemm"><a href="/services">Services</a></li>
+          <li className="nav-itemm"><a href="expertise">Expertise</a></li>
+          <li className="nav-itemm"><a href="/career">Career</a></li>
+          <li className="nav-itemm"><a href="/contact">Contact Us</a></li>
         </ul>
       </div>
     </>

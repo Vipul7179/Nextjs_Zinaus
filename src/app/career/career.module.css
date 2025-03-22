@@ -36,6 +36,132 @@
   background-color: #ffffff; /* Aqua blue underline */
 }
 
+/* header title section start*****************************************/
+.servicesSection {
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+}
+
+.servicesTitle {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.servicesHeading {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #333;
+  max-width: 800px;
+}
+
+/* header title section end *************************************************/
+
+/* perks section start************************************************* */
+
+.perksSection {
+  text-align: center;
+  padding: 40px;
+}
+
+.perksSection h2 {
+  color: #e7652f;
+}
+
+.titlee {
+  color: #e7652f;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+
+.perksContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.perkCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perkCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+  color: #e7652f;
+}
+
+.icon h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+/* perks section end************************************ */
+
+/* contact section********************************************** */
+.connectSection {
+  background-image: url("/Our_services/career_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  /* padding: 80px 0; */
+  text-align: center;
+  position: relative;
+}
+
+.connect {
+  padding: 50px 20px;
+}
+.connect h4 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.connect h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.serviceButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff6600, #ff8c00);
+
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  font-weight: 600;
+}
+
+.serviceButton:hover {
+  background-color: #ff8c00;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* contact section end ******************************************* */
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .aboutSection {
