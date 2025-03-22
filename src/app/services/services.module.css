@@ -98,13 +98,66 @@
   font-weight: bold;
 }
 
+.serviceTitle:hover {
+  color: black;
+}
+
 .serviceDescription {
   margin: 0;
   color: #cbd1e1;
   font-size: 1rem;
 }
 
+.serviceDescription:hover {
+  color: white;
+}
+
 /* services card ends******************************************************* */
+
+/* contact section********************************************** */
+.connectSection {
+  background-image: url("/Our_services/connect_background_banner.png");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+}
+
+.connect {
+  padding: 50px 20px;
+}
+.connect h4 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.connect h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.serviceButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff6600, #ff8c00);
+
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  font-weight: 600;
+}
+
+.serviceButton:hover {
+  background-color: #ff8c00;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* contact section end ******************************************* */
 
 /* Responsive Design */
 @media (max-width: 768px) {

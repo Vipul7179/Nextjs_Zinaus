@@ -142,11 +142,13 @@ const AboutUs = () => {
       <h2>Contact us now and</h2>
       <h3>let's get started!</h3>
       {/* button */}
+      
       <div className={styles.serviceButton}>
   <div className={styles.serviceText}>
     <a href="/contact" className={styles.textWhite}>Get In Touch</a>
   </div>
 </div>
+
 
 
 

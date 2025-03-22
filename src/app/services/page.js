@@ -1,4 +1,8 @@
+
+"use client";
 import styles from './services.module.css';
+import { GoToTop } from "../components/GoToTop";
+
 
 const Services = () => {
     return (
@@ -25,7 +29,7 @@ const Services = () => {
       <div className={styles.serviceCard}>
         <img
           src="/Our_services/Ecommerce.jpg"
-          alt="Product Strategy & Experience Design"
+          alt="E-commerce"
           className={styles.serviceImage}
         />
         <div className={styles.serviceContent}>
@@ -39,7 +43,7 @@ const Services = () => {
       <div className={styles.serviceCard}>
         <img
           src="/Our_services/mobile_apps.jpg"
-          alt="Digital Business Transformation"
+          alt="Mobile_apps"
           className={styles.serviceImage}
         />
         <div className={styles.serviceContent}>
@@ -53,7 +57,7 @@ const Services = () => {
       <div className={styles.serviceCard}>
         <img
           src="/Our_services/casino_games.jpg"
-          alt="Intelligence Engineering"
+          alt="Social_casino_gaming"
           className={styles.serviceImage}
         />
         <div className={styles.serviceContent}>
@@ -67,7 +71,7 @@ const Services = () => {
       <div className={styles.serviceCard}>
         <img
           src="/Our_services/web_development.jpg"
-          alt="Software Product Engineering"
+          alt="Web_development"
           className={styles.serviceImage}
         />
         <div className={styles.serviceContent}>
@@ -81,7 +85,7 @@ const Services = () => {
       <div className={styles.serviceCard}>
         <img
           src="/Our_services/QA.jpg"
-          alt="Technology Modernization"
+          alt="Quality_assurance"
           className={styles.serviceImage}
         />
         <div className={styles.serviceContent}>
@@ -95,7 +99,7 @@ const Services = () => {
       <div className={styles.serviceCard}>
         <img
           src="/Our_services/video_photo_shoot.jpg"
-          alt="Embedded Engineering & IT/OT Transformation"
+          alt="Video_photo_graphy"
           className={styles.serviceImage}
         />
         <div className={styles.serviceContent}>
@@ -105,9 +109,69 @@ const Services = () => {
           </p>
         </div>
       </div>
+
+      <div className={styles.serviceCard}>
+        <img
+          src="/Our_services/crm.jpg"
+          alt="CRM"
+          className={styles.serviceImage}
+        />
+        <div className={styles.serviceContent}>
+          <h3 className={styles.serviceTitle}>CRM SOFTWARE</h3>
+          <p className={styles.serviceDescription}>
+          CRM is the most crucial part of IT services required in promoting business, which our technical experts conduct enabling the commercial entity to retrieve its past genuine customers via high quality CRM software.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.serviceCard}>
+        <img
+          src="/Our_services/billing_software.webp"
+          alt="Billing_Software"
+          className={styles.serviceImage}
+        />
+        <div className={styles.serviceContent}>
+          <h3 className={styles.serviceTitle}>BILLING SOFTWARE</h3>
+          <p className={styles.serviceDescription}>
+          We develop intuitive billing software solutions that streamline invoicing, payment processing, and financial tracking, enabling businesses to manage transactions efficiently and maintain accurate financial records.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.serviceCard}>
+        <img
+          src="/Our_services/Restaurant_Management_Software.jpg"
+          alt="Magagement_system"
+          className={styles.serviceImage}
+        />
+        <div className={styles.serviceContent}>
+          <h3 className={styles.serviceTitle}>Restaurant Management Software</h3>
+          <p className={styles.serviceDescription}>
+          Restaurant management software is very helpful to manage various activities like inventories, payments, food, and many more. Good restaurant management software will narrow the burden.
+          </p>
+        </div>
+      </div>
+
     </div>
 
+    {/* contact section************************************ */}
 
+<div className={styles.connectSection}>
+      <div className={styles.connect}>
+        <h4>Willing to get in touch?</h4>
+        <h1>We are just a tap away!</h1>
+
+        <div className={styles.serviceButton}>
+  <div className={styles.serviceText}>
+    <a href="/contact" className={styles.textWhite}>CONNECT NOW</a>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+    {/* contact section end********************************* */}
+    <GoToTop />
 {/* services card grid end*********************************** */}
     </main>
     );
