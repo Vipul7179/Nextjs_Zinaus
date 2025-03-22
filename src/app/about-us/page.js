@@ -116,7 +116,7 @@ const AboutUs = () => {
           <h2>Industries We Serve</h2>
           <div className={styles.industriesGrid}>
             <div className={styles.industryItem} data-aos="zoom-in"><span className={styles.icon}>🏥</span><span>Healthcare</span></div>
-            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🎰</span><span>Casino</span></div>
+            <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🎰</span><span>Casino Games</span></div>
             <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>⚙️</span><span>Manufacturing</span></div>
             <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>🚛</span><span>Transportation</span></div> 
             <div className={styles.industryItem}data-aos="zoom-in"><span className={styles.icon}>📈</span><span>Fintech</span></div>
