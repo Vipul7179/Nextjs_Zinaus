@@ -3,6 +3,7 @@ import styles from './about.module.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { GoToTop } from "../components/GoToTop";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -153,7 +154,7 @@ const AboutUs = () => {
   </div>
 </section>
 
-
+ <GoToTop />
     </div>
     
     );

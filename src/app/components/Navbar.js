@@ -1,5 +1,6 @@
+"use client";
 import React from 'react'
-
+import Sidemenu from "./Sidemenu";
 
 const Navbar = () => {
   return (
@@ -11,6 +12,8 @@ const Navbar = () => {
   </a>
   
     </div>
+    {/* Side Menu Component */}
+    <Sidemenu/>
     {/* <div  className='mobile-menubutton' >
       <img src="/Images/hamburger.png" alt="burger menu" />
       </div> */}

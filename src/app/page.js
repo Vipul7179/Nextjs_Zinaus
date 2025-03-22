@@ -1,12 +1,11 @@
 "use client";
-import Image from "next/image";
-import Homepage from "./page";
+// import Image from "next/image";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { GoToTop } from "./components/GoToTop";
 import CountUp from "react-countup";
-import Sidemenu from "./components/Sidemenu";
+// import Sidemenu from "./components/Sidemenu";
 
 // react icon
 import { FaClipboardCheck } from "react-icons/fa";
@@ -22,7 +21,7 @@ export default function Home() {
   return (
     
     <div>
-      <Sidemenu/>
+      {/* <Sidemenu/> */}
       <main >
        <div>
         <div className="topbanner">
