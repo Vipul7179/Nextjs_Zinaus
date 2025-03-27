@@ -3,6 +3,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import Link from 'next/link';
 function Footer() {
   return (
     <footer className="footer">
@@ -14,18 +15,18 @@ function Footer() {
 
         <div className="footer-links">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="about-us">About Us</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/services">Services</Link></li>
+            <li><Link href="about-us">About Us</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
 
         <div className="footer-social">
-        <a href="#" className="social-icon"><FaFacebookSquare  size={38} /></a>
-          <a href="#" className="social-icon"><FaLinkedin size={38} /></a>
-          <a href="#" className="social-icon"><FaSquareXTwitter size={38} /></a>
-          <a target='blank' href="https://www.instagram.com/sculpnova/#" className="social-icon"><FaSquareInstagram  size={39}  /></a>
+        <Link href="#" className="social-icon"><FaFacebookSquare  size={38} /></Link>
+          <Link href="#" className="social-icon"><FaLinkedin size={38} /></Link>
+          <Link href="#" className="social-icon"><FaSquareXTwitter size={38} /></Link>
+          <Link target='blank' href="https://www.instagram.com/sculpnova/#" className="social-icon"><FaSquareInstagram  size={39}  /></Link>
         </div>
       </div>
 

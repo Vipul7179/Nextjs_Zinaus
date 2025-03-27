@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 function Sidemenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,12 +20,12 @@ function Sidemenu() {
   ✖
 </button>
         <ul>
-          <li className="nav-itemm"><a href="/">Home</a></li>
-          <li className="nav-itemm"><a href="/about-us">About Us</a></li>
-          <li className="nav-itemm"><a href="/services">Services</a></li>
-          <li className="nav-itemm"><a href="expertise">Expertise</a></li>
-          <li className="nav-itemm"><a href="/career">Career</a></li>
-          <li className="nav-itemm"><a href="/contact">Contact Us</a></li>
+          <li className="nav-itemm"><Link href="/">Home</Link></li>
+          <li className="nav-itemm"><Link href="/about-us">About Us</Link></li>
+          <li className="nav-itemm"><Link href="/services">Services</Link></li>
+          <li className="nav-itemm"><Link href="expertise">Expertise</Link></li>
+          <li className="nav-itemm"><Link href="/career">Career</Link></li>
+          <li className="nav-itemm"><Link href="/contact">Contact Us</Link></li>
         </ul>
       </div>
     </>
