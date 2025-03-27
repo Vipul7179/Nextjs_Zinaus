@@ -2,6 +2,7 @@
 "use client";
 import styles from './services.module.css';
 import { GoToTop } from "../components/GoToTop";
+import Link from 'next/link';
 
 
 const Services = () => {
@@ -163,7 +164,7 @@ const Services = () => {
 
         <div className={styles.serviceButton}>
   <div className={styles.serviceText}>
-    <a href="/contact" className={styles.textWhite}>CONNECT NOW</a>
+    <Link href="/contact" className={styles.textWhite}>CONNECT NOW</Link>
   </div>
 </div>
 

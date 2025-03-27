@@ -2,6 +2,7 @@ import styles from './contact.module.css';
 import { PiPhoneCallDuotone } from "react-icons/pi";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import Link from 'next/link';
 
 export default function Contact() {
     return (
@@ -42,7 +43,7 @@ export default function Contact() {
          
           </div>
           <p className={styles.phone}>
-  <a href="tel:+18001236879">+1 800 1236879</a>
+  <Link href="tel:+18001236879">+1 800 1236879</Link>
 </p>
 
           <div className={styles.mailcontainer}>
@@ -51,7 +52,7 @@ export default function Contact() {
           
           </div>
           <p className={styles.email}>
-  <a href="mailto:contact@example.com">contact@example.com</a>
+  <Link href="mailto:contact@example.com">contact@example.com</Link>
 </p>
         </div>
         <div className={styles.contactRight}>

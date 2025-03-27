@@ -3,6 +3,7 @@ import styles from './career.module.css';
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+import Link from 'next/link';
 import { GoToTop } from "../components/GoToTop";
 
 const Career = () => {
@@ -62,7 +63,7 @@ const Career = () => {
 
         <div className={styles.serviceButton}>
   <div className={styles.serviceText}>
-    <a href="/contact" className={styles.textWhite}>APPLY NOW</a>
+    <Link href="/contact" className={styles.textWhite}>APPLY NOW</Link>
   </div>
 </div>
 

@@ -3,6 +3,7 @@ import styles from './about.module.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Link from 'next/link';
 import { GoToTop } from "../components/GoToTop";
 
 const AboutUs = () => {
@@ -145,7 +146,7 @@ const AboutUs = () => {
       
       <div className={styles.serviceButton}>
   <div className={styles.serviceText}>
-    <a href="/contact" className={styles.textWhite}>Get In Touch</a>
+    <Link href="/contact" className={styles.textWhite}>Get In Touch</Link>
   </div>
 </div>
 

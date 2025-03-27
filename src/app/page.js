@@ -124,7 +124,7 @@ export default function Home() {
 
       <div className="ourservices-button">
       <div className="ourservices-textbutton">
-      <a href="/services" className="text-white">All Services</a>
+      <Link href="/services" className="text-white">All Services</Link>
   </div>
       </div>
 
