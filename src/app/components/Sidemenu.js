@@ -20,12 +20,12 @@ function Sidemenu() {
   ✖
 </button>
         <ul>
-          <li className="nav-itemm"><Link href="/">Home</Link></li>
-          <li className="nav-itemm"><Link href="/about-us">About Us</Link></li>
-          <li className="nav-itemm"><Link href="/services">Services</Link></li>
-          <li className="nav-itemm"><Link href="expertise">Expertise</Link></li>
-          <li className="nav-itemm"><Link href="/career">Career</Link></li>
-          <li className="nav-itemm"><Link href="/contact">Contact Us</Link></li>
+          <li className="nav-itemm"><Link href="/" onClick={toggleMenu}>Home</Link></li>
+          <li className="nav-itemm"><Link href="/about-us" onClick={toggleMenu}>About Us</Link></li>
+          <li className="nav-itemm"><Link href="/services" onClick={toggleMenu}>Services</Link></li>
+          <li className="nav-itemm"><Link href="/expertise" onClick={toggleMenu}>Expertise</Link></li>
+          <li className="nav-itemm"><Link href="/career" onClick={toggleMenu}>Career</Link></li>
+          <li className="nav-itemm"><Link href="/contact" onClick={toggleMenu}>Contact Us</Link></li>
         </ul>
       </div>
     </>
