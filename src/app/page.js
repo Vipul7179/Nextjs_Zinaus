@@ -27,7 +27,7 @@ export default function Home() {
        <div>
         <div className="topbanner">
 
-        <video autoPlay loop muted playsInline className="blurred-video">
+        <video autoPlay loop muted playsInline className="blurred-video" >
   <source src="/banner_video.mp4" type="video/mp4" />
 </video>
  {/* Overlay Text */}
@@ -134,9 +134,10 @@ export default function Home() {
   <div className="services-grid" >
     {/* <!-- Service Box 1 --> */}
     <div className="service-box">
-      <div>
-      <img src="/Images/online-store.png" alt="ecommerce Icon" className="service-icon" />
-      </div>
+    <div className="service-container">
+    <div className="background-shape"></div>
+    <img src="/Images/online-store.png" alt="ecommerce Icon" className="service-icon" />
+</div>
       <div>
       <h3 className="service-title">E-commerce</h3>
       <p className="service-description">
@@ -147,11 +148,13 @@ export default function Home() {
 
     {/* <!-- Service Box 2 --> */}
     <div className="service-box">
+    <div className="service-container">
+    <div className="background-shape"></div>
+    <img src="/Images/ui-design.png" alt="UI Icon" className="service-icon" />
+</div>
+
       <div>
-      <img src="/Images/ui-design.png" alt="UI Icon" className="service-icon" />
-      </div>
-      <div>
-      <h3 className="service-title">Mobile App Development (iOS & Android)</h3>
+      <h3 className="service-title">Mobile App Development</h3>
       <p className="service-description">
       We create high-performance, user-friendly mobile apps for both iOS and Android, ensuring seamless functionality, security, and scalability across all devices.
       </p>
@@ -160,9 +163,11 @@ export default function Home() {
 
     {/* <!-- Service Box 3 --> */}
     <div className="service-box">
-      <div>
-      <img src="/Images/cards.png" alt="cards Icon" className="service-icon" />
-      </div>
+    <div className="service-container">
+    <div className="background-shape"></div>
+    <img src="/Images/cards.png" alt="Cards Icon" className="service-icon" />
+</div>
+
       <div>
       <h3 className="service-title">Social Casino Gaming Platform</h3>
       <p className="service-description">
@@ -173,9 +178,11 @@ export default function Home() {
 
     {/* <!-- Service Box 4 --> */}
     <div className="service-box">
-      <div>
-      <img src="/Images/movie.png" alt="movie Icon" className="service-icon" />
-      </div>
+    <div className="service-container">
+    <div className="background-shape"></div>
+    <img src="/Images/movie.png" alt="Movie Icon" className="service-icon" />
+</div>
+
       <div>
       <h3 className="service-title">Photography & Video Content for Promotions</h3>
       <p className="service-description">
@@ -186,9 +193,11 @@ export default function Home() {
 
     {/* <!-- Service Box 5 --> */}
     <div className="service-box">
-      <div>
-      <img src="/Images/testing.png" alt="qa Icon" className="service-icon" />
-      </div>
+    <div className="service-container">
+    <div className="background-shape"></div>
+    <img src="/Images/testing.png" alt="QA Icon" className="service-icon" />
+</div>
+
       <div>
       <h3 className="service-title">Quality Assurance & Testing Solutions</h3>
       <p className="service-description">
@@ -199,9 +208,16 @@ export default function Home() {
 
     {/* <!-- Service Box 6 --> */}
     <div className="service-box">
-      <div>
-      <img src="/Images/app-development.png" alt="aoo dev Icon" className="service-icon" style={{height:"40px", width:"60px"}}/>
-      </div>
+    <div className="service-container">
+    <div className="background-shape"></div>
+    <img 
+        src="/Images/app-development.png" 
+        alt="App Dev Icon" 
+        className="service-icon" 
+        style={{ height: "40px", width: "55px" }} 
+    />
+</div>
+
       <div>
       <h3 className="service-title">Web Development</h3>
       <p className="service-description">
