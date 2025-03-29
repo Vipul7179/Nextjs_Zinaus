@@ -121,6 +121,30 @@
 
 /* top page title section ends*********************** */
 
+/* portfolio section staart********** */
+
+.portfoliosection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 130px;
+  background: #fff;
+  border: solid;
+}
+
+.portfolioimagebox {
+}
+
+.portimage {
+  width: 430px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* portfolio section ends********** */
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .aboutSection {
@@ -157,5 +181,36 @@
   }
   .whyChooseUs {
     padding: 30px;
+  }
+
+  .portfoliosection {
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .portfolioimagebox {
+    margin: 25px 0px;
+  }
+
+  .portimage {
+    width: 315px;
+    height: 250px;
+  }
+  .portfoliosection {
+    flex-direction: column !important; /* Stack elements vertically */
+  }
+
+  .textContainer {
+    order: -1; /* Ensures text always comes first */
+    text-align: center;
+  }
+
+  .portfolioimagebox {
+    order: 2; /* Image always appears below the text */
+  }
+
+  .buttonLink {
+    justify-content: center;
+    display: flex;
   }
 }
