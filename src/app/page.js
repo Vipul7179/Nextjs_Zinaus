@@ -72,8 +72,8 @@ export default function Home() {
 
    {/* animated projects counter******************************************** */}
    <section className="counterdata">
-   <div className="counter grid grid-four-column" data-aos="fade-up" >
-      <div className="counter-section"> 
+   <div className="counter grid grid-four-column"  >
+      <div className="counter-section" data-aos="zoom-in"> 
       <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
   <FaClipboardCheck size={24} style={{ marginRight: "8px" }} />
   <span>
@@ -82,7 +82,7 @@ export default function Home() {
 </h2>
         <p>Projects completed</p>
       </div>
-      <div className="counter-section"> 
+      <div className="counter-section" data-aos="zoom-in"> 
       <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
   <FaSmile size={24} style={{ marginRight: "8px" }} />
   <span>  
@@ -97,7 +97,7 @@ export default function Home() {
           </h2>
         <p>Projects completed</p>
       </div> */}
-      <div className="counter-section"> 
+      <div className="counter-section" data-aos="zoom-in"> 
       <h2 className="counter-numbers" style={{ display: "flex", alignItems: "center" }}>
   <FaCalendarAlt size={24} style={{ marginRight: "8px" }} />
   <span>
@@ -264,31 +264,31 @@ export default function Home() {
         <div className="expertise-item">
           <img src="/Images/poker games.jpg" alt="Poker" />
           <h3>We build immersive poker tables for a seamless and exciting gaming experience.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         <div className="expertise-item">
           <img src="/Images/E-commerce.jpg" alt="E-commerce" />
           <h3>Crafting dynamic e-commerce platforms for smooth shopping and business growth.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         <div className="expertise-item">
           <img src="/Images/plinko game.jpg" alt="Plinko" />
           <h3>We design innovative and engaging Plinko tables for a fun and rewarding gaming experience.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         <div className="expertise-item">
           <img src="/Images/mobileapp.jpg" alt="Mobile application" />
           <h3>We develop high-performance Android and iOS apps with seamless functionality and user-friendly design.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         <div className="expertise-item">
           <img src="/Images/travelweb.jpg" alt="Travelweb" />
           <h3>We create stunning and user-friendly travel websites for seamless bookings and unforgettable journeys.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         
@@ -296,19 +296,19 @@ export default function Home() {
         <div className="expertise-item">
           <img src="/Images/kitchen-web.jpg" alt="Kitchen" />
           <h3>We build visually appealing and user-friendly food websites for restaurants, delivery services, and culinary brands.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         <div className="expertise-item">
           <img src="/Images/management_system.jpg" alt="management-system" />
           <h3>We build smart, efficient management systems to streamline operations and productivity for schools, colleges, offices, businesses, gyms, and hospitals.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
 
         <div className="expertise-item">
           <img src="/Images/professional-photographer-vmg-studios.webp" alt="video-graphy" />
           <h3>We create high-quality photography and videography for brand promotion and skit videos.</h3>
-          <Link href="#" className="category">View →</Link>
+          <Link href="/expertise" className="category">View →</Link>
         </div>
       </div>
       

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from './expertise.module.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { GoToTop } from "../components/GoToTop";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -291,6 +292,7 @@ const settings = {
   </div>
 </section>
 
+      <GoToTop />
 
     </main>
     );
