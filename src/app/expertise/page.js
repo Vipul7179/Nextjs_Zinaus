@@ -269,6 +269,27 @@ const settings = {
 
 
 {/* postfolio section ends******************************* */}
+ {/* contact******************************** */}
+ <section className={styles.contactSection}>
+  <div className={styles.contactWrapper}>
+    <img src="/Images/get_in_touch.png" alt="Contact Us" className={styles.contactImage} />
+    <div className={styles.contactContent}>
+      <h2>Connect for a Live Demo</h2>
+      <h3>Today!</h3>
+      {/* button */}
+      
+      <div className={styles.serviceButton}>
+  <div className={styles.serviceText}>
+    <Link href="/contact" className={styles.textWhite}>Get In Touch</Link>
+  </div>
+</div>
+
+
+
+
+    </div>
+  </div>
+</section>
 
 
     </main>

@@ -211,6 +211,63 @@
 
 /* portfolio section ends********** */
 
+/* contact us section start */
+/* contact section********************** */
+.contactSection {
+  /* padding: 50px 0; */
+  background-color: #f9f9f9;
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding: 20px;
+  background-color: white;
+  /* border-radius: 20px; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contactImage {
+  width: 300px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.contactContent {
+  text-align: center;
+}
+
+.contactContent h2,
+.contactContent h3 {
+  font-size: 28px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.serviceButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff6600, #ff8c00);
+
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.serviceButton:hover {
+  background-color: #ff8c00;
+  transform: scale(1.05);
+}
+
+.serviceText a {
+  color: white;
+  text-decoration: none;
+}
+
+/* contact us end */
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .aboutSection {
@@ -281,5 +338,8 @@
   .buttonLink {
     justify-content: center;
     display: flex;
+  }
+  .contactImage {
+    display: none;
   }
 }
