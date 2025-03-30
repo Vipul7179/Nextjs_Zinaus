@@ -132,15 +132,81 @@
   border: solid;
 }
 
+/* Slider Container */
 .portfolioimagebox {
+  width: 100%;
+  max-width: 423px;
+  margin: auto;
+  position: relative;
 }
 
+/* Individual Portfolio Images */
 .portimage {
-  width: 430px;
+  width: 100%;
+  max-width: 430px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease-in-out;
+}
+
+.portimage:hover {
+  transform: scale(1.05);
+}
+
+.sliderWrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* Slick Arrow Customization */
+.slickArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(232, 1, 1, 0.984);
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.slickArrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 20px;
+  color: #ff6600 !important; /* Replace with your theme color */
+}
+
+.slick-prev,
+.slick-next {
+  background-color: rgba(232, 1, 1, 0.984) !important;
+}
+
+/* Left Arrow */
+.slick-prev {
+  left: -50px !important;
+}
+
+/* Right Arrow */
+.slick-next {
+  right: -50px !important;
+}
+
+/* Arrow Icons */
+.slick-prev::before,
+.slick-next::before {
+  font-size: 20px;
+  color: #ff6600;
 }
 
 /* portfolio section ends********** */
@@ -193,8 +259,11 @@
   }
 
   .portimage {
-    width: 315px;
+    /* width: 315px; */
     height: 250px;
+  }
+  .sliderWrapper {
+    width: 98%;
   }
   .portfoliosection {
     flex-direction: column !important; /* Stack elements vertically */

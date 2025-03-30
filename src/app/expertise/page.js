@@ -4,11 +4,54 @@ import Link from 'next/link';
 import styles from './expertise.module.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Expertise = () => {
   useEffect(() => {
       Aos.init({ duration: 1000 }); // Initializes AOS with a duration of 1000ms
     }, []);
+
+    // left and righ arrow
+
+      // Custom Next Arrow
+  const NextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`${className} ${styles.slickArrow}`}
+        style={{ ...style, display: "block", right: "10px" }}
+        onClick={onClick}
+      ></div>
+    );
+  };
+
+  // Custom Prev Arrow
+  const PrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`${className} ${styles.slickArrow}`}
+        style={{ ...style, display: "block", left: "10px" }}
+        onClick={onClick}
+      ></div>
+    );
+  };
+
+// Slider settings
+const settings = {
+  dots: false, // Hide dots below slider
+  infinite: true, // Loop the slider
+  speed: 500,
+  slidesToShow: 1, // Show one image at a time
+  slidesToScroll: 1, // Move one slide per click
+  nextArrow: <NextArrow />,
+  prevArrow: <PrevArrow />,
+  autoplay: true, 
+  autoplaySpeed: 3000, 
+};
+
     return (
       
       <main>
@@ -61,7 +104,7 @@ const Expertise = () => {
 <section className={styles.portfoliosection}>
  
 
-      <div className={styles.textContainer}data-aos="fade-right" >
+      <div className={styles.textContainer} >
         {/* <h4 className={styles.subTitle}>Our Expertise</h4> */}
         <h2 className={styles.title2}>
         Social Casino Gaming Platform
@@ -72,13 +115,25 @@ const Expertise = () => {
 
       </div>
 
-      <div className={styles.portfolioimagebox} >
+      <div className={styles.sliderWrapper}>
+  <Slider {...settings} className={styles.portfolioimagebox}>
+    
+    <div>
+      <img src="/Images/poker games.jpg" alt="Poker" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/plinko_2.jpeg" alt="plinko2" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/plinko game.jpg" alt="Plinko Game" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/crash.jpg" alt="Crash" className={styles.portimage} />
+    </div>
+  </Slider>
+</div>
 
-      <div>
-        <img src="/Images/plinko game.jpg" alt="Discussion" className={styles.portimage} />
-        </div>
 
-        </div>
 
         
     </section>
@@ -86,13 +141,22 @@ const Expertise = () => {
     {/* card 2 */}
     <section className={styles.portfoliosection} >
  
-    <div className={styles.portfolioimagebox} >
-
-<div>
-  <img src="/Images/E-commerce.jpg" alt="Discussion" className={styles.portimage} />
-  </div>
-
-  </div>
+    <div className={styles.sliderWrapper}>
+  <Slider {...settings} className={styles.portfolioimagebox}>
+    <div>
+      <img src="/Images/E-commerce.jpg" alt="ecommerce" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/ecommerce-website-design.jpg" alt="ecommerce_designs" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/ecommerce-mobile-app.png" alt="e-commerce-app" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/e-com-app.jpg" alt="e-com-app" className={styles.portimage} />
+    </div>
+  </Slider>
+</div>
 
       <div className={styles.textContainer}data-aos="fade-right">
         {/* <h4 className={styles.subTitle}>Our Expertise</h4> */}
@@ -121,12 +185,19 @@ const Expertise = () => {
      </p>
 
    </div>
-   <div className={styles.portfolioimagebox} >
-
-<div>
-<img src="/Images/mobileapp.jpg" alt="Discussion" className={styles.portimage} />
-</div>
-
+   <div className={styles.sliderWrapper}>
+  <Slider {...settings} className={styles.portfolioimagebox}>
+    
+    <div>
+      <img src="/Images/mobileapp.jpg" alt="apps" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/restaurant-app-development3.webp" alt="apps2" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/pharma_app.jpg" alt="Pharma_app" className={styles.portimage} />
+    </div>
+  </Slider>
 </div>
 
  </section>
@@ -134,13 +205,24 @@ const Expertise = () => {
  {/* card 4 */}
  <section className={styles.portfoliosection}>
  
-    <div className={styles.portfolioimagebox}>
-
-<div>
-  <img src="/Images/management_system.jpg" alt="Discussion" className={styles.portimage} />
-  </div>
-
-  </div>
+ <div className={styles.sliderWrapper}>
+  <Slider {...settings} className={styles.portfolioimagebox}>
+    
+  <div>
+      <img src="/Images/management_system.jpg" alt="cms" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/management_system_app.jpg" alt="cms" className={styles.portimage} />
+    </div>
+    
+    <div>
+      <img src="/Images/central-kitchen-tab-screen.webp" alt="cms" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/StudentListing.png" alt="cms" className={styles.portimage} />
+    </div>
+  </Slider>
+</div>
 
       <div className={styles.textContainer} data-aos="fade-right" >
         {/* <h4 className={styles.subTitle}>Our Expertise</h4> */}
@@ -168,12 +250,19 @@ const Expertise = () => {
    </p>
 
  </div>
- <div className={styles.portfolioimagebox} >
-
-<div>
-<img src="/Images/mobileapp.jpg" alt="Discussion" className={styles.portimage} />
-</div>
-
+ <div className={styles.sliderWrapper}>
+  <Slider {...settings} className={styles.portfolioimagebox}>
+    
+    <div>
+      <img src="/Images/client_portals_004_1_5x.webp" alt="web" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/blog-website-templates-1000x750.jpg" alt="web" className={styles.portimage} />
+    </div>
+    <div>
+      <img src="/Images/portfolio_web.jpg" alt="web" className={styles.portimage} />
+    </div>
+  </Slider>
 </div>
 
 </section>
