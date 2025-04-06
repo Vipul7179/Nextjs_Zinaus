@@ -1098,4 +1098,7 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .videotext {
+    top: 73%;
+  }
 }

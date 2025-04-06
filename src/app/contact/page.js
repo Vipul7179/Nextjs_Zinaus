@@ -36,14 +36,14 @@ export default function Contact() {
           <h2>Our Address:</h2>
           
           </div>
-          <p>Mada Center 8th floor, 379 Hudson St,<br />New York, NY 10018 US</p>
+          <p>Lucknow Chowk<br />Lucknow - 226003</p>
           <div className={styles.phonecontainer}>
           <PiPhoneCallDuotone size={20} style={{ marginRight: "8px" }} />
           <h2>Our Phone:</h2>
          
           </div>
           <p className={styles.phone}>
-  <Link href="tel:+18001236879">+1 800 1236879</Link>
+  <Link href="tel:+18001236879">coming soon</Link>
 </p>
 
           <div className={styles.mailcontainer}>
@@ -52,12 +52,12 @@ export default function Contact() {
           
           </div>
           <p className={styles.email}>
-  <Link href="mailto:contact@example.com">contact@example.com</Link>
+  <Link href="mailto:info.sculpnova@gmail.com">info.sculpnova@gmail.com</Link>
 </p>
         </div>
         <div className={styles.contactRight}>
           <h2>Ready to Get Started?</h2>
-          <form action="https://formspree.io/f/manenqzv" method="POST">
+          <form action="https://formspree.io/f/xvgkvzaa" method="POST">
   <input type="text" name="firstName" placeholder="First name" className={styles.input} />
   <input type="text" name="lastName" placeholder="Last name" className={styles.input} />
   <input type="email" name="email" placeholder="Eg. example@email.com" className={styles.input} />

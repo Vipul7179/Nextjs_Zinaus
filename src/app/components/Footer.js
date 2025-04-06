@@ -23,9 +23,9 @@ function Footer() {
         </div>
 
         <div className="footer-social">
-        <Link href="#" className="social-icon"><FaFacebookSquare  size={38} /></Link>
-          <Link href="#" className="social-icon"><FaLinkedin size={38} /></Link>
-          <Link href="#" className="social-icon"><FaSquareXTwitter size={38} /></Link>
+        <Link target='blank' href="https://www.facebook.com/profile.php?id=61575158273501" className="social-icon"><FaFacebookSquare  size={38} /></Link>
+          {/* <Link href="#" className="social-icon"><FaLinkedin size={38} /></Link> */}
+          {/* <Link href="#" className="social-icon"><FaSquareXTwitter size={38} /></Link> */}
           <Link target='blank' href="https://www.instagram.com/sculpnova/#" className="social-icon"><FaSquareInstagram  size={39}  /></Link>
         </div>
       </div>
